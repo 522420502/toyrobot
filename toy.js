@@ -88,4 +88,4 @@ var right = function(){
     toy.face = directs[i];
 };
 
-//console.log("Please type in command line by line, or 'exit' to exit:")
+//console---------.log("Please type in command line by line, or 'exit' to exit:")

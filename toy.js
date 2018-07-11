@@ -70,6 +70,7 @@ var move = function(){
        var next = toy.y - 1;
        if (next >= 0) toy.y = next;
    }
+	//{
 };
 
 var left = function(){

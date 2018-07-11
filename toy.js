@@ -70,7 +70,7 @@ var move = function(){
        var next = toy.y - 1;
        if (next >= 0) toy.y = next;
    }
-   if (toy.face === "WEST"){
+   if (toy.face === "WEST"){  // lkk test
        var next = toy.x - 1;
       if (next >= 0) toy.x = next;
    }

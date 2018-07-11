@@ -70,7 +70,14 @@ var move = function(){
        var next = toy.y - 1;
        if (next >= 0) toy.y = next;
    }
-	//{
+   if (toy.face === "WEST"){
+       var next = toy.x - 1;
+      if (next >= 0) toy.x = next;
+   }
+   if (toy.face === "EAST"){
+       var next = toy.x + 1;
+        if (next <= 5) toy.x = next;
+    }
 };
 
 var left = function(){
@@ -89,4 +96,4 @@ var right = function(){
     toy.face = directs[i];
 };
 
-//console.log("Please type in command line by line, or 'exit' to exit:")
+//console---------.log("Please type in command line by line, or 'exit' to exit:")

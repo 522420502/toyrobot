@@ -74,6 +74,10 @@ var move = function(){
        var next = toy.x - 1;
       if (next >= 0) toy.x = next;
    }
+   if (toy.face === "EAST"){
+       var next = toy.x + 1;
+        if (next <= 5) toy.x = next;
+    }
 };
 
 var left = function(){

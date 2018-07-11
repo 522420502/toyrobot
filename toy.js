@@ -1,4 +1,4 @@
-// JavaScript File
+// JavaScrjjjjj--ipt File
 var readline = require('readline');
     
 var toy = {x:0, y:0, face:""};
@@ -78,6 +78,7 @@ var move = function(){
        var next = toy.x + 1;
         if (next <= 5) toy.x = next;
     }
+   } // ---
 };
 
 var left = function(){

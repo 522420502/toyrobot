@@ -69,7 +69,12 @@ var move = function(){
    if (toy.face === "SOUTH"){
        var next = toy.y - 1;
        if (next >= 0) toy.y = next;
-   }
+   } // ---
+	//---
+	//
+	//
+	//
+	//
 };
 
 var left = function(){
